@@ -1,0 +1,71 @@
+{
+  "id": "e2e67255-52c0-4f94-9678-e4f7ef30ad65",
+  "caseId": "4d3e0402-bd3a-4dfc-b570-1fd0a5b8c5e1",
+  "title": "Pilot 1 — episode plan (sample, not for publication)",
+  "outline": "Placeholder timing blueprint for a target 30-minute episode. Replace each section with a fact-checked outline after case selection. No factual story content is supplied.",
+  "script": "",
+  "targetRuntimeSeconds": 1800,
+  "format": "long_form_video_16x9",
+  "status": "outline",
+  "segments": [
+    {
+      "id": "b49f1951-2efc-441b-9a6d-2f2f47d1eedd",
+      "title": "Host opening and disclosure",
+      "order": 0,
+      "plannedDurationSeconds": 60,
+      "claimIds": [],
+      "evidenceIds": [],
+      "assetIds": []
+    },
+    {
+      "id": "b8400268-c671-487c-91f7-a1672e116509",
+      "title": "Case context and people",
+      "order": 1,
+      "plannedDurationSeconds": 300,
+      "claimIds": [],
+      "evidenceIds": [],
+      "assetIds": []
+    },
+    {
+      "id": "c2732b33-1706-43d9-a94b-c34a1624d6c6",
+      "title": "Timeline and investigation",
+      "order": 2,
+      "plannedDurationSeconds": 360,
+      "claimIds": [],
+      "evidenceIds": [],
+      "assetIds": []
+    },
+    {
+      "id": "48a8d1c5-a799-450c-92f2-d5d5d7b600c2",
+      "title": "Evidence and competing accounts",
+      "order": 3,
+      "plannedDurationSeconds": 420,
+      "claimIds": [],
+      "evidenceIds": [],
+      "assetIds": []
+    },
+    {
+      "id": "b6f9fa98-31d4-4658-98b7-58cd9f1fec9f",
+      "title": "Legal developments and current status",
+      "order": 4,
+      "plannedDurationSeconds": 360,
+      "claimIds": [],
+      "evidenceIds": [],
+      "assetIds": []
+    },
+    {
+      "id": "4be4124a-51d5-4416-bc66-ffb4e61de42a",
+      "title": "What is known, unresolved questions, and close",
+      "order": 5,
+      "plannedDurationSeconds": 300,
+      "claimIds": [],
+      "evidenceIds": [],
+      "assetIds": []
+    }
+  ],
+  "reviewStatus": "not_ready",
+  "approvals": [],
+  "exportPath": null,
+  "createdAt": "2026-11-13T00:00:00Z",
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

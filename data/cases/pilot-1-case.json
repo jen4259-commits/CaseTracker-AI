@@ -1,0 +1,17 @@
+{
+  "id": "4d3e0402-bd3a-4dfc-b570-1fd0a5b8c5e1",
+  "title": "Pilot 1 case — selection pending",
+  "category": "legal_case",
+  "status": "candidate",
+  "caseType": "pending_selection",
+  "jurisdiction": "unknown",
+  "summary": "Intake placeholder only. No real case has been selected or researched. Replace this record with a sourced case brief before research or production; do not treat this text as a factual case description.",
+  "startDate": null,
+  "keyPeople": [],
+  "storyAngle": "To be determined after case selection and source review.",
+  "sourceIds": [],
+  "verificationStatus": "unreviewed",
+  "episodeStatus": "not_started",
+  "createdAt": "2026-11-13T00:00:00Z",
+  "updatedAt": "2026-11-13T00:00:00Z"
+}
