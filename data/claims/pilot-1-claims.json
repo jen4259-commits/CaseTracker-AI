@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cead7603-ea5b-4814-964c-2099d820b8c7",
+    "caseId": "4d3e0402-bd3a-4dfc-b570-1fd0a5b8c5e1",
+    "text": "The Supreme Court held that the Sixth Amendment right to counsel is fundamental and applies to defendants charged with felonies in state court through the Fourteenth Amendment.",
+    "claimType": "legal_holding",
+    "sourceIds": ["0c7ca23d-a973-429a-8bb4-d31646463f77"],
+    "evidenceIds": ["5f9cd5c1-c0d5-4db4-b435-b9b19550d16b"],
+    "verificationStatus": "supported",
+    "reviewer": "Initial source review; human publication review pending",
+    "reviewedAt": "2026-11-13T00:00:00Z",
+    "notes": "Narrow wording based on the opinion. Ensure narration does not imply the same appointed-counsel rule applies to every proceeding."
+  },
+  {
+    "id": "919548e3-1cb2-4c15-8495-58ad7d56d97a",
+    "caseId": "4d3e0402-bd3a-4dfc-b570-1fd0a5b8c5e1",
+    "text": "Gideon asked the Florida trial court to appoint counsel because he could not afford one, was denied, and represented himself at trial.",
+    "claimType": "procedural_history",
+    "sourceIds": ["0c7ca23d-a973-429a-8bb4-d31646463f77", "fb7640b4-9f2d-44da-a12e-8e2c2d222d87"],
+    "evidenceIds": ["7f7ce525-0ae9-4331-b841-f3fd0b04eaf6"],
+    "verificationStatus": "supported",
+    "reviewer": "Initial source review; human publication review pending",
+    "reviewedAt": "2026-11-13T00:00:00Z",
+    "notes": "Primary Supreme Court opinion is the controlling source for this account; check the linked opinion's exact wording before final narration."
+  },
+  {
+    "id": "1597b106-b7e7-4257-9cdb-1dd0af364ca0",
+    "caseId": "4d3e0402-bd3a-4dfc-b570-1fd0a5b8c5e1",
+    "text": "After the Supreme Court ruling, Gideon was acquitted at retrial with appointed counsel.",
+    "claimType": "procedural_outcome",
+    "sourceIds": ["fb7640b4-9f2d-44da-a12e-8e2c2d222d87"],
+    "evidenceIds": ["2cb8d413-8d15-48d0-bfe5-73d234e704ce"],
+    "verificationStatus": "in_review",
+    "reviewer": null,
+    "reviewedAt": null,
+    "notes": "Reported by Florida Supreme Court historical overview; obtain and inspect the underlying retrial record before treating as fully verified. Keep out of definitive narration until that review is complete."
+  }
+]

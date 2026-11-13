@@ -1,17 +1,26 @@
 {
   "id": "4d3e0402-bd3a-4dfc-b570-1fd0a5b8c5e1",
-  "title": "Pilot 1 case — selection pending",
-  "category": "legal_case",
-  "status": "candidate",
-  "caseType": "pending_selection",
-  "jurisdiction": "unknown",
-  "summary": "Intake placeholder only. No real case has been selected or researched. Replace this record with a sourced case brief before research or production; do not treat this text as a factual case description.",
-  "startDate": null,
-  "keyPeople": [],
-  "storyAngle": "To be determined after case selection and source review.",
-  "sourceIds": [],
-  "verificationStatus": "unreviewed",
-  "episodeStatus": "not_started",
+  "title": "Gideon v. Wainwright — Clarence Earl Gideon and the right to counsel",
+  "category": "landmark_decision",
+  "status": "research",
+  "caseType": "criminal_procedure_and_right_to_counsel",
+  "jurisdiction": "Florida; United States Supreme Court",
+  "summary": "Research case: Clarence Earl Gideon challenged his Florida felony conviction after the trial court denied his request for appointed counsel because he could not afford a lawyer. The U.S. Supreme Court reversed in Gideon v. Wainwright, 372 U.S. 335 (1963), holding that the right to counsel is fundamental and applies to state felony defendants. Florida's court history page reports that Gideon was acquitted at retrial with appointed counsel. The case is selected for a pilot episode about the constitutional right to counsel and the path from a state prosecution to a landmark Supreme Court ruling. This record is a research draft, not legal advice or a publication-ready account.",
+  "startDate": "1961-01-01",
+  "keyPeople": [
+    { "name": "Clarence Earl Gideon", "role": "Petitioner and Florida defendant", "publicFigure": true },
+    { "name": "Louis L. Wainwright", "role": "Florida corrections official named as respondent", "publicFigure": true },
+    { "name": "Abe Fortas", "role": "Counsel appointed to represent Gideon before the U.S. Supreme Court", "publicFigure": true },
+    { "name": "Hugo L. Black", "role": "Justice who wrote the U.S. Supreme Court opinion", "publicFigure": true }
+  ],
+  "storyAngle": "How Gideon's handwritten petition and Supreme Court case established a constitutional right to appointed counsel for indigent defendants charged with serious crimes in state court—and what the record does and does not establish about that right.",
+  "sourceIds": [
+    "0c7ca23d-a973-429a-8bb4-d31646463f77",
+    "fb7640b4-9f2d-44da-a12e-8e2c2d222d87",
+    "ca18c2d6-9e03-4c0f-aeef-6a94f1c8938c"
+  ],
+  "verificationStatus": "partially_supported",
+  "episodeStatus": "outline",
   "createdAt": "2026-11-13T00:00:00Z",
   "updatedAt": "2026-11-13T00:00:00Z"
 }

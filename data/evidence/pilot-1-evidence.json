@@ -1,0 +1,62 @@
+[
+  {
+    "id": "5f9cd5c1-c0d5-4db4-b435-b9b19550d16b",
+    "caseId": "4d3e0402-bd3a-4dfc-b570-1fd0a5b8c5e1",
+    "sourceId": "0c7ca23d-a973-429a-8bb4-d31646463f77",
+    "evidenceType": "document_passage",
+    "label": "Supreme Court holding on the right to counsel",
+    "locator": "372 U.S. 335, 342–345; confirm page text and pinpoints on the linked scan before publication",
+    "filePath": null,
+    "mediaType": "legal_opinion",
+    "checksum": null,
+    "verificationStatus": "supported",
+    "contextNotes": "Supports the legal holding that the right to counsel is fundamental and applies to state felony defendants. Do not generalize this as a right to appointed counsel in every type of proceeding.",
+    "rightsStatus": "public_domain_reviewed",
+    "timestamp": null
+  },
+  {
+    "id": "7f7ce525-0ae9-4331-b841-f3fd0b04eaf6",
+    "caseId": "4d3e0402-bd3a-4dfc-b570-1fd0a5b8c5e1",
+    "sourceId": "0c7ca23d-a973-429a-8bb4-d31646463f77",
+    "evidenceType": "document_passage",
+    "label": "Gideon's Florida case and request for appointed counsel",
+    "locator": "372 U.S. 335, 336–338; verify exact text and pinpoints against the linked opinion",
+    "filePath": null,
+    "mediaType": "legal_opinion",
+    "checksum": null,
+    "verificationStatus": "supported",
+    "contextNotes": "Use the Court's procedural-history account, not as an independent complete trial record. Attribute allegations and procedural facts precisely.",
+    "rightsStatus": "public_domain_reviewed",
+    "timestamp": null
+  },
+  {
+    "id": "2cb8d413-8d15-48d0-bfe5-73d234e704ce",
+    "caseId": "4d3e0402-bd3a-4dfc-b570-1fd0a5b8c5e1",
+    "sourceId": "fb7640b4-9f2d-44da-a12e-8e2c2d222d87",
+    "evidenceType": "document_passage",
+    "label": "Florida case background and reported retrial outcome",
+    "locator": "Florida Supreme Court historical page; exact section and wording to be captured during source review",
+    "filePath": null,
+    "mediaType": "official_court_history",
+    "checksum": null,
+    "verificationStatus": "in_review",
+    "contextNotes": "The Florida court's history page reports that Gideon was acquitted at retrial. This is presently a secondary institutional account; obtain/inspect the trial record before treating retrial details as fully verified.",
+    "rightsStatus": "unknown",
+    "timestamp": null
+  },
+  {
+    "id": "ae87a60f-c099-4817-aec9-c1813858ef92",
+    "caseId": "4d3e0402-bd3a-4dfc-b570-1fd0a5b8c5e1",
+    "sourceId": "ca18c2d6-9e03-4c0f-aeef-6a94f1c8938c",
+    "evidenceType": "other",
+    "label": "Oral-argument audio lead",
+    "locator": "Oyez case page; segment/timecode not yet reviewed",
+    "filePath": null,
+    "mediaType": "audio_reference",
+    "checksum": null,
+    "verificationStatus": "in_review",
+    "contextNotes": "A source lead only. Audio authenticity, completeness, timecodes, context, and reuse rights remain to be checked. Not cleared for inclusion in an episode.",
+    "rightsStatus": "unknown",
+    "timestamp": null
+  }
+]
