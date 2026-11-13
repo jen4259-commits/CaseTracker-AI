@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://casetracker-ai.example/schemas/case.schema.json",
+  "title": "CaseTracker Case",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "title", "category", "status", "caseType", "jurisdiction", "summary", "keyPeople", "storyAngle", "sourceIds", "verificationStatus", "episodeStatus", "createdAt", "updatedAt"],
+  "properties": {
+    "id": { "type": "string", "format": "uuid" },
+    "title": { "type": "string", "minLength": 1 },
+    "category": { "type": "string", "minLength": 1 },
+    "status": { "enum": ["candidate", "research", "verification", "story_design", "production", "review", "approved", "archived"] },
+    "caseType": { "type": "string", "minLength": 1 },
+    "jurisdiction": { "type": "string", "minLength": 1 },
+    "summary": { "type": "string" },
+    "startDate": { "type": ["string", "null"], "format": "date" },
+    "keyPeople": { "type": "array", "items": { "type": "object", "additionalProperties": false, "required": ["name", "role"], "properties": { "name": { "type": "string" }, "role": { "type": "string" }, "publicFigure": { "type": "boolean", "default": false } } } },
+    "storyAngle": { "type": "string" },
+    "sourceIds": { "type": "array", "uniqueItems": true, "items": { "type": "string", "format": "uuid" } },
+    "verificationStatus": { "enum": ["unreviewed", "in_review", "supported", "partially_supported", "conflicted", "unsupported", "rejected"] },
+    "episodeStatus": { "enum": ["not_started", "outline", "script", "production", "review", "approved", "published"] },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://casetracker-ai.example/schemas/evidence.schema.json",
+  "title": "CaseTracker Evidence Item",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "caseId", "sourceId", "evidenceType", "label", "verificationStatus", "contextNotes", "rightsStatus"],
+  "properties": {
+    "id": { "type": "string", "format": "uuid" },
+    "caseId": { "type": "string", "format": "uuid" },
+    "sourceId": { "type": "string", "format": "uuid" },
+    "evidenceType": { "enum": ["document_passage", "court_exhibit", "photo", "video", "audio", "transcript_excerpt", "other"] },
+    "label": { "type": "string", "minLength": 1 },
+    "locator": { "type": ["string", "null"], "description": "Page, docket entry, paragraph, timestamp, or other precise location in the source." },
+    "filePath": { "type": ["string", "null"], "description": "Repository-relative asset reference; do not store large media binaries in Git." },
+    "mediaType": { "type": ["string", "null"] },
+    "checksum": { "type": ["string", "null"] },
+    "verificationStatus": { "enum": ["unreviewed", "in_review", "supported", "partially_supported", "conflicted", "unsupported", "rejected"] },
+    "contextNotes": { "type": "string" },
+    "rightsStatus": { "enum": ["unknown", "permission_required", "permission_requested", "licensed", "permission_granted", "public_domain_reviewed", "restricted", "not_for_publication"] },
+    "timestamp": { "type": ["string", "null"], "format": "date-time" }
+  }
+}

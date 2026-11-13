@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://casetracker-ai.example/schemas/episode.schema.json",
+  "title": "CaseTracker Episode",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "caseId", "title", "outline", "script", "targetRuntimeSeconds", "format", "status", "segments", "reviewStatus", "createdAt", "updatedAt"],
+  "properties": {
+    "id": { "type": "string", "format": "uuid" },
+    "caseId": { "type": "string", "format": "uuid" },
+    "title": { "type": "string", "minLength": 1 },
+    "outline": { "type": "string" },
+    "script": { "type": "string" },
+    "targetRuntimeSeconds": { "type": "integer", "minimum": 1, "default": 1800 },
+    "format": { "type": "string", "minLength": 1 },
+    "status": { "enum": ["outline", "research", "script", "production", "review", "approved", "exported", "published"] },
+    "segments": { "type": "array", "items": { "type": "object", "additionalProperties": false, "required": ["id", "title", "order", "plannedDurationSeconds", "claimIds", "evidenceIds"], "properties": { "id": { "type": "string", "format": "uuid" }, "title": { "type": "string" }, "order": { "type": "integer", "minimum": 0 }, "plannedDurationSeconds": { "type": "integer", "minimum": 0 }, "claimIds": { "type": "array", "items": { "type": "string", "format": "uuid" } }, "evidenceIds": { "type": "array", "items": { "type": "string", "format": "uuid" } }, "assetIds": { "type": "array", "items": { "type": "string", "format": "uuid" } } } } },
+    "reviewStatus": { "enum": ["not_ready", "pending", "changes_requested", "approved"] },
+    "approvals": { "type": "array", "items": { "type": "object", "additionalProperties": false, "required": ["reviewType", "status", "reviewedAt"], "properties": { "reviewType": { "enum": ["facts", "editorial", "rights", "privacy_ethics", "technical_export"] }, "status": { "enum": ["pending", "approved", "changes_requested"] }, "reviewer": { "type": ["string", "null"] }, "reviewedAt": { "type": "string", "format": "date-time" }, "notes": { "type": "string" } } } },
+    "exportPath": { "type": ["string", "null"] },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" }
+  }
+}
